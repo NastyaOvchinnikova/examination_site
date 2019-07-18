@@ -1,0 +1,28 @@
+.header {
+margin: 40px 0 0 0;
+
+&__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+&__logo {
+    width: 221.07px;
+    height: 65.68px;
+    background: url(./img/Group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+&__phone {
+    width: 112px;
+    height: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #3A4959;
+    margin: 0 30px 0 225px;
+}
+}
