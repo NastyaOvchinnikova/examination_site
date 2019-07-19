@@ -1,0 +1,91 @@
+.services {
+
+&__blocks {
+    width: 450px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);
+    margin-top: 40px; 
+}
+&__content {
+    display: flex;
+    flex-direction: column;
+}
+&__line {
+    margin: 100px 1080px 0 -208px;
+}
+&__article {
+    width: 580px;
+    height: 45px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: #3A4959;
+    margin-top: 30px ;
+}
+&__img {
+    width: 450px;
+    height: 200px;
+    background: url(./img/Rectangle_3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+&__title {
+    width: 340px;
+    height: 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #3A4959;
+    padding: 30px 70px 0 40px;
+}
+&__text {
+    width: 340px;
+    height: 96px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A4959;
+    margin: 40px 70px 0 40px;
+}
+&__img-acupuncture {
+    width: 450px;
+    height: 200px;
+    background: url(./img/Rectangle_4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+&__img-massage{
+    width: 450px;
+    height: 200px;
+    background: url(./img/Rectangle_5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+&__blocks-possition {
+    width: 450px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);
+    margin-top: 40px; 
+    margin: 0 0 0 600px;
+}
+&__content-possition{
+    display: flex;
+    flex-direction: column;
+}
+}
